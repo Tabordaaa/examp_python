@@ -21,4 +21,8 @@ print("la resta de los dos numeros es:",resta ),
 
 
 
+#swswswswdswswswswswswswswswswswsws
+
+
+
 
