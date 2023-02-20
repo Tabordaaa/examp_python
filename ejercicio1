@@ -1,0 +1,33 @@
+#CAJERO ELECTRONICO 
+
+print("Bienvenido al banco de bogota")
+print("ingrese la targeta")
+retiro = int(input("ingrese la cantidad que desea retirar:"))
+print("Contando...")
+
+print("el monto de dinero retirado es:", retiro)
+
+#USAR UN CHAT
+print("Dos personas se han unido al chat" )
+print("El chat esta activo" )
+mensajeEntrada1= input("Mensaje:")
+mensajeEntrada2= input("Mensaje:")
+mensajeSalida1= input("Mensaje:")
+mensajeSalida2= input("Mensaje:")
+
+#PAGAR CON TARGETA DE CREDITO
+
+print("Ingrese la targeta con la que desea realizar el pago")
+contraseña = int(input("ingrese el pin:"))
+
+if contraseña < 9999:
+    print ("Su pago ha sido relizado correcamente")
+else:
+    print("Su pago fue rechazado, intentalo de nuevo")
+
+
+
+
+
+
+
