@@ -1,4 +1,4 @@
-
+"""""
 #lavar ropa 
 print("sistema para lavar tu ropa ")
 
@@ -23,3 +23,26 @@ if num1 == 1:
     print("Espere un momento, contactando la persona...")
 else:
     print("Es necesario el numero de la persona o no sera posible comunicarse con ella")
+    """""
+#ALAMCEN WC
+
+print("PRODUCTOS")
+Pzapatos= 350000
+Ptenis = 280000
+Pcamisetas = 175000
+Pjeans = 200000
+
+print("ZAPATOS $",Pzapatos)
+print("TENIS $",Ptenis )
+print("CAMISETAS $",Pcamisetas )
+print("JEANS $",Pjeans )
+print("--------------------------")
+
+total = Pzapatos+Pcamisetas+Ptenis+Pjeans
+print("TOTAL:",total)
+promedio = int(total/4)
+print("PROMEDIO DE PRECIOS:", promedio)
+NPZAPATOS = int(Pzapatos*1.006)
+print("NUEVO PRECIO ZAPATOS:",NPZAPATOS)
+NPjeans = int(Pjeans / 1.00006)
+print("NUEVO PRECIO ZAPATOS:",NPjeans)
