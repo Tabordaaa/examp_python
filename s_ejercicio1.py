@@ -27,6 +27,7 @@ else:
 #ALAMCEN WC
 
 print("PRODUCTOS")
+
 Pzapatos= 350000
 Ptenis = 280000
 Pcamisetas = 175000
