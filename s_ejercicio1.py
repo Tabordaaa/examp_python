@@ -12,3 +12,14 @@ else:
     print("En un momento se le asignara una 2lavadora con un tiempo limite de 1 hora ")
     print("sus materiales elegidos son:",N) 
     
+
+#EJERCICIO LLAMAR A UN AMIGO 
+print("ES NECESARIO EL NUMERO DE LA PERSONA PARA COMUNICARSE POR TELEFONO CON ELLA")
+num1=int(input("si tiene el numero ingrese el numero 1, si no lo tiene ingrese el numero 2:"))
+import random
+if num1 == 1:
+    numA= int(input("ingrese el numero de la persona con la que se desea comunicar:"))
+    print(random.choice(["disponible", "No disponible"]))
+    print("Espere un momento, contactando la persona...")
+else:
+    print("Es necesario el numero de la persona o no sera posible comunicarse con ella")
