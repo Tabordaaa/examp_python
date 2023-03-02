@@ -46,15 +46,33 @@ sueldo_mensual_T2= (sueldo_t2*8)*30
 sueldo_mensual_T3= (sueldo_t3*8)*30
 sueldo_mensual_T4= (sueldo_t4*8)*30
 
+if sueldo_mensual_T1 > 1500000:
+    print(nombre_t1,"Salario es mayor a tope máximo")
+    print("--------------------------------------------------------------------------------------------------------------------")
+else:
+   print( nombre_t1,"Su sueldo mensual ha sido aumentado en un 6 porciento y es de:",((sueldo_mensual_T1*6)/100)+sueldo_mensual_T1)
+   print("--------------------------------------------------------------------------------------------------------------------")    
 
 
-
-
-print("Sueldo mensual", nombre_t1,"es:", sueldo_mensual_T1 )
-print("----------------------------------------------------------")
-print("Sueldo mensual", nombre_t2,"es:", sueldo_mensual_T2 )
-print("----------------------------------------------------------")
-print("Sueldo mensual", nombre_t3,"es:", sueldo_mensual_T3 )
-print("----------------------------------------------------------")
-print("Sueldo mensual", nombre_t4,"es:", sueldo_mensual_T4 )
-
+if sueldo_mensual_T2 > 1500000:
+    print(nombre_t2,"Salario es mayor a tope máximo")
+    print("--------------------------------------------------------------------------------------------------------------------")
+else:
+   print( nombre_t2,"Su sueldo mensual ha sido aumentado en un 6 porciento y es de:",((sueldo_mensual_T2*6)/100)+sueldo_mensual_T2)
+   print("--------------------------------------------------------------------------------------------------------------------")  
+    
+    
+if sueldo_mensual_T3 > 1500000:
+    print(nombre_t3,"Salario es mayor a tope máximo")
+    print("--------------------------------------------------------------------------------------------------------------------")
+else:
+   print( nombre_t3,"Su sueldo mensual ha sido aumentado en un 6 porciento y es de:",((sueldo_mensual_T3*6)/100)+sueldo_mensual_T3)
+   print("--------------------------------------------------------------------------------------------------------------------")  
+    
+    
+    
+if sueldo_mensual_T4 > 1500000:
+    print(nombre_t4,"Salario es mayor a tope máximo")
+else:
+   print( nombre_t4,"Su sueldo mensual ha sido aumentado en un 6 porciento y es de:",((sueldo_mensual_T4*6)/100)+sueldo_mensual_T4)
+    
